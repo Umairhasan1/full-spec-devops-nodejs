@@ -26,4 +26,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm i nodemon -g
     - run: yarn
+    - run: cd client && yarn
     - run: yarn dev
