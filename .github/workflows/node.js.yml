@@ -27,7 +27,6 @@ jobs:
     - run: npm i nodemon -g
     - run: yarn
     - run: cd client && yarn
-    - run: yarn dev
     - uses: akhileshns/heroku-deploy@v3.6.8 # This is the action
       with:
         heroku_api_key: ${{secrets.HEROKU_API}}
