@@ -32,4 +32,4 @@ jobs:
         heroku_api_key: ${{secrets.HEROKU_API}}
         heroku_app_name: "node-assignment-10p" #Must be unique in Heroku
         heroku_email: "hasan.umair@tenpearls.com"
-        branch: "dev"
+        branch: "master"
